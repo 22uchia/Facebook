@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Beranda - Facebook</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-firestore-compat.js"></script>
+  <script src="firebase.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="box">
+    <h2>Beranda</h2>
+    <textarea id="postContent" placeholder="Apa yang kamu pikirkan?"></textarea>
+    <button onclick="createPost()">Posting</button>
+    <div id="feedContainer"></div>
+    <button onclick="logout()">Logout</button>
+  </div>
+</body>
+</html>
