@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profil Saya</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-firestore-compat.js"></script>
+  <script src="firebase.js"></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="box">
+    <h2>Profil Pengguna</h2>
+    <p id="userEmail"></p>
+    <p id="userName"></p>
+    <button onclick="logout()">Logout</button>
+  </div>
+</body>
+</html>
